@@ -383,7 +383,7 @@ button {
     padding-top: 120px;
 }
 
-.about_taital::after {
+/* .about_taital::after {
     position: absolute;
     content: '';
     width: 80px;
@@ -392,7 +392,7 @@ button {
     bottom: 20px;
     right: 0px;
     border-radius: 4px;
-}
+} */
 
 .about_text {
     width: 100%;
@@ -543,7 +543,6 @@ button {
 .cart_bt {
     width: 150px;
     margin: 0 auto;
-    text-align: center;
     padding-top: 10px;
 }
 
@@ -556,6 +555,17 @@ button {
     color: #fc95c4;
     padding: 8px 0px;
     border-radius: 40px;
+}
+
+#cart_bt_div {
+    display: flex;
+    flex-direction: column; /* um em cima do outro */
+    align-items: center;   /* centraliza */
+}
+#cart_bt_div h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    white-space: nowrap;
 }
 
 .cart_bt a:hover {
@@ -1042,4 +1052,15 @@ textarea#comment.update_mail::placeholder {
 
 .margin_top90 {
     margin-top: 90px;
+}
+
+/* #cart_bt_div{
+    margin-left: 10px;
+} */
+
+#cart_bt_whatsapp{
+    background-color: #25D366; 
+    color: white; 
+    width: 100%;
+    font-size: 20px;
 }
